@@ -6,6 +6,7 @@
 
 * Modularidad por archivos
 * Exports
+* npm
 * Browserify
 
 ### - Ejercicio con módulos (1 hora 45 min)
