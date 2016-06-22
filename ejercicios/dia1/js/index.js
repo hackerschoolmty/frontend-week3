@@ -52,6 +52,7 @@ for (var i = 0; i < 100; i++) {
   var randomX = Math.random() * 800;
   var randomY = Math.random() * 600;
   var randomSize = Math.random() * 100;
+  var randomVel = Math.random() * 2 + 1;
 
-  figures.push(new Square(randomX, randomY, randomSize, randomSize, 1, 1));
+  figures.push(new Square(randomX, randomY, randomSize, randomSize, randomVel, randomVel));
 }
